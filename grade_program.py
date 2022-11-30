@@ -45,14 +45,14 @@ def calc_level(level):
 
 def main():
     # Asks user for their level
-    user_level = input("Enter your percentage: ")
+    user_level = input("Enter your level: ")
 
     # Calls calc_level
     percentage = calc_level(user_level)
 
     # If the percentage is equal to -1 then display invalid input
     if percentage == -1:
-        print(f"{user_level} is not valid input")
+        print("Enter a valid level next time")
     else:
         # Displays the percentage of the level to the user
         print(f"Your level {user_level} is equal to {percentage}%")
