@@ -2,7 +2,7 @@
 
 # Created by: Nathan Araujo
 # Created on: November 26, 2022
-# This program asks the user for their level, it then turns that level into a percentage
+# This program asks the user for their level, it then turns that level into a percentage, it then displays it back to the user
 
 
 # This functions determines the user percentage from the level they entered
